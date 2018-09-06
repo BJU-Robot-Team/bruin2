@@ -1,5 +1,2 @@
-python3-pip 
-python3-pyqt5
-pyqt5-dev-tools
 pyserial
 pynmea2
