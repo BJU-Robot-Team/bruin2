@@ -1,0 +1,9 @@
+<!-- Launch file for Bruin2, the BJU Autonomous Vehicle -->
+<!-- name is a name of your choosing -->
+<!-- plk is the package name as defined in each project.xml -->
+<!-- type is executable listed in CMakeLists.txt? -->
+<launch>
+    <node name="gps" pkg="gps" type="main.py" output="screen" required="true" />
+    
+    <node name="relay_board" pkg="relay_board" type="main.py" output="screen" required="true" />
+</launch>
