@@ -13,7 +13,7 @@ This is the Bruin 2 Robot code, converted from the old repository "Bruin-2-Maste
 
 ## Setup
 - Clone the repo: `cd ~ && git clone https://github.com/BJU-Robot-Team/bruin2.git bruin_2_code`
-- Run `cd .\bruin_2_code && py -m virtualenv bruin2_env` to set up a virtual environment, then `pip install -r requirements.txt` to install the required modules
+- Run `cd ./bruin_2_code && py -m virtualenv bruin2_env && ./bruin2_env/Scripts/activate` to set up a virtual environment, then `pip install -r requirements.txt` to install the required modules
 - Run `source ~/bruin_2_code/setup.sh` to install the dependencies (This may take up to an hour) (Is this still needed?)
 - Run `catkin_make` from ~/bruin_2_code to build the code
 - Run `./run_bruin2.sh` from ~/bruin_2_code to run the code
