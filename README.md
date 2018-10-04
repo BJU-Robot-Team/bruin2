@@ -1,7 +1,7 @@
 # BJU Robot Team's Bruin 2 Code
 The new home for Bruin 2 code
 
-This is the Bruin 2 Robot code, converted from the old repository "Bruin-2-Master" to this new one for clarity. The code has also been transformed from a predominately C++ project to Python project, though some of the modules that are not written by the team, such as the RoboteQ driver, are still in C++. 
+This is the Bruin 2 Robot code, converted from the old repository "Bruin-2-Master" to this new one for clarity. The code has also been transformed from a predominately C++ project to Python project, though some of the modules that are not written by the team, such as the RoboteQ driver, are still in C++.
 
 # Getting started
 ## Prerequisites
@@ -10,11 +10,10 @@ This is the Bruin 2 Robot code, converted from the old repository "Bruin-2-Maste
 3. [VS Code](https://code.visualstudio.com/) or some other code editor
 4. git: `sudo apt install git`
 5. pip: `sudo apt-get install pip`
-
+6. [ROS](http://wiki.ros.org/kinetic/Installation/Ubuntu) from this link, following the instructions
 ## Setup
 - Clone the repo: `cd ~ && git clone https://github.com/BJU-Robot-Team/bruin2.git bruin_2_code`
-- Run `cd ./bruin_2_code && py -m virtualenv bruin2_env && ./bruin2_env/Scripts/activate` to set up a virtual environment, then `pip install -r requirements.txt` to install the required modules
-- Run `source ~/bruin_2_code/setup.sh` to install the dependencies (This may take up to an hour) (Is this still needed?)
+- Run `cd ./bruin_2_code && pip install virtualenv && virutalenv bruin2_env && source ./bruin2_env/bin/activate` to set up a virtual environment, then `pip install -r requirements.txt` to install the required modules
 - Run `catkin_make` from ~/bruin_2_code to build the code
 - Run `./run_bruin2.sh` from ~/bruin_2_code to run the code
 
